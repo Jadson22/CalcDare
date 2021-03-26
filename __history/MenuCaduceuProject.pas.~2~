@@ -1,0 +1,28 @@
+unit MenuCaduceuProject;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, PngSpeedButton,
+  Vcl.ExtCtrls;
+
+type
+  TMenuCaduceu = class(TForm)
+    PngSpeedButton1: TPngSpeedButton;
+    panel1: TPanel;
+    PngSpeedButton2: TPngSpeedButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  MenuCaduceu: TMenuCaduceu;
+
+implementation
+
+{$R *.dfm}
+
+end.

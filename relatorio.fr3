@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.2.1" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44236,9512708796" ReportOptions.Description.Text="" ReportOptions.LastChange="44256,4083935995" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxRelatorioDarePauta" DataSetName="frxRelatorioDarePauta"/>
+    <item DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva"/>
+    <item DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="207,87415" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Align="baCenter" AllowVectorExport="True" Left="211,65368" Top="34,01577" Width="294,80334" Height="34,01577" Font.Charset="1" Font.Color="0" Font.Height="-27" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Relatório Cálculo Dare"/>
+      <TfrxMemoView Name="Date" IndexTag="1" AllowVectorExport="True" Left="582,04762" Top="0" Width="132,28355" Height="18,89765" Frame.Typ="0" Text="[Date] [Time] ">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo2" AllowVectorExport="True" Left="207,87415" Top="79,37013" Width="60,47248" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="Emissão:"/>
+      <TfrxMemoView Name="frxRelatoriodataEmissaoDare" IndexTag="1" AllowVectorExport="True" Left="268,34663" Top="79,37013" Width="71,81107" Height="18,89765" DataField="dataEmissaoDare" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frxRelatorio.&#34;dataEmissaoDare&#34;]"/>
+      <TfrxMemoView Name="Memo3" AllowVectorExport="True" Left="340,1577" Top="79,37013" Width="98,26778" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="  /  Vencimento:"/>
+      <TfrxMemoView Name="frxRelatoriodataVencimentoDare" IndexTag="1" AllowVectorExport="True" Left="438,42548" Top="79,37013" Width="75,5906" Height="18,89765" DataField="dataVencimentoDare" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frxRelatorio.&#34;dataVencimentoDare&#34;]"/>
+      <TfrxMemoView Name="Memo4" Align="baCenter" AllowVectorExport="True" Left="149,291435" Top="60,47248" Width="419,52783" Height="41,57483" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="________________________________________________________"/>
+      <TfrxMemoView Name="frxRelatoriorazaoSocialDestinatario" IndexTag="1" Align="baCenter" AllowVectorExport="True" Left="184,11039" Top="132,28355" Width="349,88992" Height="34,01577" DataField="razaoSocialDestinatario" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-20" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[frxRelatorio.&#34;razaoSocialDestinatario&#34;]"/>
+      <TfrxMemoView Name="frxRelatoriocnpjDestinatario" IndexTag="1" Align="baCenter" AllowVectorExport="True" Left="200,31509" Top="170,07885" Width="317,48052" Height="18,89765" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="CNPJ: [frxRelatorio.&#34;cnpjDestinatario&#34;] / IE: [frxRelatorio.&#34;ieDestinatario&#34;] / UF: [frxRelatorio.&#34;ufDestinatario&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo5" Align="baCenter" AllowVectorExport="True" Left="149,291435" Top="151,1812" Width="419,52783" Height="41,57483" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="____________________________________________________"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="207,87415" Left="0" Top="287,24428" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" RowCount="0">
+      <TfrxMemoView Name="Memo8" AllowVectorExport="True" Left="262,677335" Top="128,50402" Width="415,7483" Height="64,25201" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxRelatorio.&#34;observacao&#34;]"/>
+      <TfrxMemoView Name="frxRelatoriodanfe" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="3,77953" Width="136,06308" Height="37,7953" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="Danfe:&#13;&#10; [frxRelatorio.&#34;danfe&#34;]"/>
+      <TfrxMemoView Name="frxRelatoriochaveXML" IndexTag="1" AllowVectorExport="True" Left="177,63791" Top="3,77953" Width="351,49629" Height="37,7953" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="Chave XML:&#13;&#10; [frxRelatorio.&#34;chaveXML&#34;]"/>
+      <TfrxMemoView Name="frxRelatoriocfop" IndexTag="1" AllowVectorExport="True" Left="529,1342" Top="3,77953" Width="147,40167" Height="37,7953" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="CFOP:&#13;&#10; [frxRelatorio.&#34;cfop&#34;]"/>
+      <TfrxMemoView Name="frxRelatoriofornecedor" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="45,35436" Width="219,21274" Height="37,7953" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="Fornecedor:&#13;&#10; [frxRelatorio.&#34;fornecedor&#34;]"/>
+      <TfrxMemoView Name="frxRelatoriocnpjFornecedor" IndexTag="1" AllowVectorExport="True" Left="260,78757" Top="45,35436" Width="185,19697" Height="37,7953" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="CNPJ: &#13;&#10; [frxRelatorio.&#34;cnpjFornecedor&#34;]"/>
+      <TfrxMemoView Name="frxRelatorioieFornecedor" IndexTag="1" AllowVectorExport="True" Left="445,98454" Top="45,35436" Width="132,28355" Height="37,7953" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="IE:&#13;&#10; [frxRelatorio.&#34;ieFornecedor&#34;]"/>
+      <TfrxMemoView Name="frxRelatorioufEmitente" IndexTag="1" AllowVectorExport="True" Left="578,26809" Top="45,35436" Width="98,26778" Height="37,7953" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="UF:&#13;&#10; [frxRelatorio.&#34;ufEmitente&#34;]"/>
+      <TfrxMemoView Name="frxRelatoriototalDare" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="128,50402" Width="219,21274" Height="64,25201" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-20" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="R$ [frxRelatorio.&#34;totalDare&#34;]"/>
+      <TfrxMemoView Name="Memo25" AllowVectorExport="True" Left="41,57483" Top="128,50402" Width="109,60637" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="Valor total DARE:"/>
+      <TfrxMemoView Name="Memo27" AllowVectorExport="True" Left="264,5671" Top="128,50402" Width="83,14966" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="Observação:"/>
+      <TfrxMemoView Name="Memo28" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="86,92919" Width="211,65368" Height="37,7953" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" VAlign="vaCenter" Text="Valor Total Base de Calculo:&#13;&#10;   [frxRelatorio.&#34;totalBaseCalculo&#34;]"/>
+      <TfrxMemoView Name="Memo29" IndexTag="1" AllowVectorExport="True" Left="253,22851" Top="86,92919" Width="207,87415" Height="37,7953" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" VAlign="vaCenter" Text="Valor Total ICMS ST Substituto:&#13;&#10;   [frxRelatorio.&#34;totalIcmsDestTotal&#34;]"/>
+      <TfrxMemoView Name="Memo30" IndexTag="1" AllowVectorExport="True" Left="461,10266" Top="86,92919" Width="215,43321" Height="37,7953" DataSet="frxRelatorioDadosnfe" DataSetName="frxRelatorio" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" VAlign="vaCenter" Text="Valor Total Cred ICMS Próprio:&#13;&#10;   [frxRelatorio.&#34;totalCredIcmsEmit&#34;]"/>
+    </TfrxMasterData>
+    <TfrxMasterData Name="MasterData2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="245,66945" Left="0" Top="517,79561" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" RowCount="0">
+      <TfrxMemoView Name="frxRelatorioDareIvaproduto" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="0" Width="672,75634" Height="37,7953" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="CALC IVA:&#13;&#10;[Line#] -  [frxRelatorioDareIva.&#34;produto&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxRelatorioDareIvaquantidade" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="41,57483" Width="672,75634" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Frame.Typ="0" Text="Quantidade: [frxRelatorioDareIva.&#34;quantidade&#34;]  Valor Unitário: R$[frxRelatorioDareIva.&#34;valorUnitario&#34;]  Valor Total: R$[frxRelatorioDareIva.&#34;valorTotal&#34;]  ICMS Substituto: [frxRelatorioDareIva.&#34;icmsDest&#34;]%  ICMS Próprio: [frxRelatorioDareIva.&#34;icmsEmit&#34;]%">
+        <Formats>
+          <item/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%g" Kind="fkNumeric"/>
+          <item FormatStr="%g" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxRelatorioDareIvaiddareiva" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="102,04731" Width="597,16574" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="CRED ICMS PRÓPRIO = ([frxRelatorioDareIva.&#34;valorTotal&#34;] x [frxRelatorioDareIva.&#34;icmsEmit&#34;]%) - [frxRelatorioDareIva.&#34;reduBebida&#34;]% ">
+        <Formats>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%g" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxRelatorioDareIvabaseIcmsEmit" IndexTag="1" AllowVectorExport="True" Left="638,74057" Top="102,04731" Width="75,5906" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frxRelatorioDareIva.&#34;baseIcmsEmit&#34;]"/>
+      <TfrxMemoView Name="Memo7" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="139,84261" Width="597,16574" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="BASE DE CALC IVA = (([frxRelatorioDareIva.&#34;valorTotal&#34;] x [frxRelatorioDareIva.&#34;iva&#34;]%) + [frxRelatorioDareIva.&#34;valorTotal&#34;]) - [frxRelatorioDareIva.&#34;reduFarmaceutica&#34;]% ">
+        <Formats>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%g" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxRelatorioDareIvabaseIva" IndexTag="1" AllowVectorExport="True" Left="638,74057" Top="139,84261" Width="79,37013" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frxRelatorioDareIva.&#34;baseIva&#34;]"/>
+      <TfrxMemoView Name="Memo9" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="177,63791" Width="597,16574" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="ICMS ST SUBSTITUTO = [frxRelatorioDareIva.&#34;baseIva&#34;] x [frxRelatorioDareIva.&#34;icmsDest&#34;]% ">
+        <Formats>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%g" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxRelatorioDareIvabaseIcmsDest" IndexTag="1" AllowVectorExport="True" Left="638,74057" Top="177,63791" Width="79,37013" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frxRelatorioDareIva.&#34;baseIcmsDest&#34;]"/>
+      <TfrxMemoView Name="Memo10" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="215,43321" Width="597,16574" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="VALOR DARE IVA = ([frxRelatorioDareIva.&#34;baseIcmsDest&#34;] - [frxRelatorioDareIva.&#34;baseIcmsEmit&#34;]) - [frxRelatorioDareIva.&#34;reduCestaBasica&#34;]% ">
+        <Formats>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxRelatorioDareIvavalorDare" IndexTag="1" AllowVectorExport="True" Left="638,74057" Top="215,43321" Width="79,37013" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frxRelatorioDareIva.&#34;valorDare&#34;]"/>
+      <TfrxMemoView Name="Memo11" AllowVectorExport="True" Left="41,57483" Top="222,99227" Width="634,96104" Height="22,67718" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="_____________________________________________________________________________________"/>
+      <TfrxMemoView Name="Memo17" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="60,47248" Width="672,75634" Height="34,01577" DataSet="frxRelatorioDarePauta" DataSetName="frxRelatorioDarePauta" Frame.Typ="0" Text="Redução cesta basica: [frxRelatorioDareIva.&#34;reduCestaBasica&#34;]%    Redução bebida: [frxRelatorioDareIva.&#34;reduBebida&#34;]%   Redução farmaceutica: [frxRelatorioDareIva.&#34;reduFarmaceutica&#34;]%   IVA: [frxRelatorioDareIva.&#34;iva&#34;]%">
+        <Formats>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo19" AllowVectorExport="True" Left="41,57483" Top="120,94496" Width="634,96104" Height="18,89765" Frame.Typ="0" Text="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+      <TfrxMemoView Name="Memo20" AllowVectorExport="True" Left="41,57483" Top="158,74026" Width="634,96104" Height="18,89765" Frame.Typ="0" Text="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+      <TfrxMemoView Name="Memo21" AllowVectorExport="True" Left="41,57483" Top="196,53556" Width="634,96104" Height="18,89765" Frame.Typ="0" Text="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+    </TfrxMasterData>
+    <TfrxMasterData Name="MasterData3" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="226,81169" Left="0" Top="786,14224" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxRelatorioDarePauta" DataSetName="frxRelatorioDarePauta" RowCount="0">
+      <TfrxMemoView Name="frxRelatorioDarePautaproduto" IndexTag="1" AllowVectorExport="True" Left="43" Top="0" Width="672,63018" Height="37,7953" DataSet="frxRelatorioDarePauta" DataSetName="frxRelatorioDarePauta" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="CALC PAUTA&#13;&#10;[Line#] - [frxRelatorioDarePauta.&#34;produto&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo12" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="37,83519" Width="672,75634" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="Quantidade: [frxRelatorioDarePauta.&#34;quantidade&#34;]  Valor Unitário: R$[frxRelatorioDarePauta.&#34;valorUnitario&#34;]  Valor Total: R$[frxRelatorioDarePauta.&#34;valorTotal&#34;]  ICMS Substituto: [frxRelatorioDarePauta.&#34;icmsDest&#34;]%  ICMS Próprio: [frxRelatorioDarePauta.&#34;icmsEmit&#34;]%">
+        <Formats>
+          <item/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%g" Kind="fkNumeric"/>
+          <item FormatStr="%g" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo13" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="86,96908" Width="597,16574" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="CRED ICMS PRÓPRIO = ([frxRelatorioDarePauta.&#34;valorTotal&#34;] x [frxRelatorioDarePauta.&#34;icmsEmit&#34;]%) - [frxRelatorioDarePauta.&#34;reduBebida&#34;]% ">
+        <Formats>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%g" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo14" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="124,76438" Width="597,16574" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="BASE DE CALC PAUTA = [frxRelatorioDarePauta.&#34;quantidade&#34;] x [frxRelatorioDarePauta.&#34;pauta&#34;]%">
+        <Formats>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%g" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo15" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="162,55968" Width="597,16574" Height="15,11812" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="ICMS SUBSTITUTO BC PAUTA = [frxRelatorioDarePauta.&#34;basePauta&#34;] x [frxRelatorioDarePauta.&#34;icmsDest&#34;]%">
+        <Formats>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%g" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxRelatorioDarePautabaseIcmsEmit" IndexTag="1" AllowVectorExport="True" Left="638,74057" Top="86,96908" Width="79,37013" Height="18,89765" DataSet="frxRelatorioDarePauta" DataSetName="frxRelatorioDarePauta" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Frame.Typ="0" Text="[frxRelatorioDarePauta.&#34;baseIcmsEmit&#34;]"/>
+      <TfrxMemoView Name="frxRelatorioDarePautabasePauta" IndexTag="1" AllowVectorExport="True" Left="638,74057" Top="124,76438" Width="79,37013" Height="18,89765" DataSet="frxRelatorioDarePauta" DataSetName="frxRelatorioDarePauta" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Frame.Typ="0" Text="[frxRelatorioDarePauta.&#34;basePauta&#34;]"/>
+      <TfrxMemoView Name="frxRelatorioDarePautabaseIcmsDest" IndexTag="1" AllowVectorExport="True" Left="638,74057" Top="162,55968" Width="79,37013" Height="18,89765" DataSet="frxRelatorioDarePauta" DataSetName="frxRelatorioDarePauta" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Frame.Typ="0" Text="[frxRelatorioDarePauta.&#34;baseIcmsDest&#34;]"/>
+      <TfrxMemoView Name="Memo16" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="196,57545" Width="597,16574" Height="18,89765" DataSet="frxRelatorioDareIva" DataSetName="frxRelatorioDareIva" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="VALOR DARE = ([frxRelatorioDarePauta.&#34;baseIcmsDest&#34;] - [frxRelatorioDarePauta.&#34;baseIcmsEmit&#34;]) - [frxRelatorioDarePauta.&#34;reduCestaBasica&#34;]%">
+        <Formats>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxRelatorioDarePautavalorDare" IndexTag="1" AllowVectorExport="True" Left="638,74057" Top="196,57545" Width="79,37013" Height="18,89765" DataSet="frxRelatorioDarePauta" DataSetName="frxRelatorioDarePauta" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Frame.Typ="0" Text="[frxRelatorioDarePauta.&#34;valorDare&#34;]"/>
+      <TfrxMemoView Name="frxRelatorioDarePautareduCestaBasica" IndexTag="1" AllowVectorExport="True" Left="41,57483" Top="56,73284" Width="672,75634" Height="18,89765" DataSet="frxRelatorioDarePauta" DataSetName="frxRelatorioDarePauta" Frame.Typ="0" Text="Redução cesta basica: [frxRelatorioDarePauta.&#34;reduCestaBasica&#34;]%    Redução bebida: [frxRelatorioDarePauta.&#34;reduBebida&#34;]%   PAUTA: [frxRelatorioDarePauta.&#34;pauta&#34;]%">
+        <Formats>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+          <item FormatStr="%2.2f" Kind="fkNumeric"/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo18" AllowVectorExport="True" Left="41,57483" Top="207,91404" Width="634,96104" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="_____________________________________________________________________________________"/>
+      <TfrxMemoView Name="Memo22" AllowVectorExport="True" Left="41,57483" Top="105,82684" Width="634,96104" Height="18,89765" Frame.Typ="0" Text="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+      <TfrxMemoView Name="Memo23" AllowVectorExport="True" Left="41,57483" Top="143,62214" Width="634,96104" Height="18,89765" Frame.Typ="0" Text="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+      <TfrxMemoView Name="Memo24" AllowVectorExport="True" Left="41,57483" Top="177,63791" Width="634,96104" Height="18,89765" Frame.Typ="0" Text="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="109,60637" Left="0" Top="1073,38652" Width="718,1107">
+      <TfrxMemoView Name="Page" IndexTag="1" AllowVectorExport="True" Left="676,53587" Top="-3,77953" Width="41,57483" Height="18,89765" Frame.Typ="0" Text="[Page]"/>
+      <TfrxMemoView Name="Memo26" AllowVectorExport="True" Left="0" Top="-3,77953" Width="151,1812" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Caduceu - Calc Dare 1.0"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>

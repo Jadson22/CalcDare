@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/25 11:28:37.000.353,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/25 11:38:38.000.973,C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\CarregarXML.dfm=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/01/25 11:38:38.000.973,C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\CarregarXML.pas=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/25 11:39:00.000.563,C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\CarregarXMLProject.dproj=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/01/28 09:00:24.000.190,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\Unit1.pas</Transaction>
+    <Transaction>2021/01/28 09:01:28.000.615,C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\Unit1.dfm=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\modulo.dfm</Transaction>
+    <Transaction>2021/01/28 09:01:28.000.615,C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\Unit1.pas=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\modulo.pas</Transaction>
+    <Transaction>2021/02/02 09:14:09.000.644,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_CarregarXMLProject\default.txaPackage</Transaction>
+    <Transaction>2021/02/17 10:47:11.000.678,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\Unit2.pas</Transaction>
+    <Transaction>2021/02/17 10:48:52.000.159,C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\FiltroRelatorios.dfm=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\Unit2.dfm</Transaction>
+    <Transaction>2021/02/17 10:48:52.000.159,C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\FiltroRelatorios.pas=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\Unit2.pas</Transaction>
+    <Transaction>2021/02/18 14:45:45.000.980,C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\CarregarXMLProject.dproj=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\Caduceu_CalcDare.dproj</Transaction>
+    <Transaction>2021/02/18 14:45:46.000.855,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\Caduceu_CalcDare\default.txvpck</Transaction>
+    <Transaction>2021/02/18 14:45:46.000.355,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\default.txvpck</Transaction>
+    <Transaction>2021/02/18 14:45:46.000.386,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\FiltroRelatorios\default.txvpck</Transaction>
+    <Transaction>2021/02/18 14:45:46.000.027,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\default.txaPackage</Transaction>
+    <Transaction>2021/02/18 14:45:46.000.683,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\modulo\default.txvpck</Transaction>
+    <Transaction>2021/02/18 14:45:46.000.901,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\CarregarXML\default.txvpck</Transaction>
+    <Transaction>2021/02/18 14:45:46.000.011,c:\users\medeiros\documents\embarcadero\studio\projects\calcdare\modelsupport_carregarxmlproject\default.txapackage=</Transaction>
+    <Transaction>2021/02/18 14:45:47.000.151,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\FiltroRelatorios\default.txaPackage</Transaction>
+    <Transaction>2021/02/18 14:45:47.000.136,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\CarregarXML\default.txaPackage</Transaction>
+    <Transaction>2021/02/18 14:45:47.000.167,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\Caduceu_CalcDare\default.txaPackage</Transaction>
+    <Transaction>2021/02/18 14:45:47.000.183,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\modulo\default.txaPackage</Transaction>
+    <Transaction>2021/03/18 14:20:35.000.996,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\Unit2.pas</Transaction>
+    <Transaction>2021/03/18 14:25:40.000.042,C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\MenuCaduceu.pas=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\Unit2.pas</Transaction>
+    <Transaction>2021/03/18 14:25:40.000.042,C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\MenuCaduceu.dfm=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\Unit2.dfm</Transaction>
+    <Transaction>2021/03/18 14:32:51.000.781,=C:\Users\MEDEIROS\Documents\Embarcadero\Studio\Projects\CalcDare\ModelSupport_Caduceu_CalcDare\MenuCaduceu\default.txvpck</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ModelSupport_Caduceu_CalcDare"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\Caduceu_CalcDare"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\Caduceu_CalcDare\default.txaPackage"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\Caduceu_CalcDare\default.txvpck"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\CarregarXML"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\CarregarXML\default.txaPackage"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\CarregarXML\default.txvpck"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\FiltroRelatorios"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\FiltroRelatorios\default.txaPackage"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\FiltroRelatorios\default.txvpck"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\MenuCaduceu"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\MenuCaduceu\default.txvpck"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\modulo"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\modulo\default.txaPackage"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\modulo\default.txvpck"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\default.txaPackage"/>
+    <File Path="ModelSupport_Caduceu_CalcDare\default.txvpck"/>
+    <File Path="CarregarXML.pas"/>
+    <File Path="CarregarXML.dfm"/>
+    <File Path="FiltroRelatorios.pas"/>
+    <File Path="FiltroRelatorios.dfm"/>
+    <File Path="modulo.pas"/>
+    <File Path="modulo.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

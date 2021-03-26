@@ -1,0 +1,40 @@
+object MenuCaduceu: TMenuCaduceu
+  Left = 0
+  Top = 0
+  Caption = 'MenuCaduceu'
+  ClientHeight = 331
+  ClientWidth = 700
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 700
+    Height = 331
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 168
+    ExplicitTop = 96
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object PngSpeedButton1: TPngSpeedButton
+      Left = 88
+      Top = 112
+      Width = 169
+      Height = 73
+    end
+    object PngSpeedButton2: TPngSpeedButton
+      Left = 448
+      Top = 112
+      Width = 169
+      Height = 73
+    end
+  end
+end
